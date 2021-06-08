@@ -1,9 +1,9 @@
 def consensus_and_profile(data):
-
     # Create DNA Strings
     s = []
     ros_loc = []
     data = data.split()
+    
     i = 0
     while i < len(data) - 1:
         if ">" in data[i]:
@@ -61,7 +61,6 @@ def consensus_and_profile(data):
     for key in profile:
         print("{}: {}".format(key, " ".join(map(str, profile[key]))))
 
-
 data = """
 >Rosalind_1
 ATCCAGCT
@@ -78,4 +77,5 @@ ATGCCATT
 >Rosalind_7
 ATGGCACT
 """
+#Run function
 consensus_and_profile(data)
