@@ -1,2 +1,2 @@
 # Rosalind Solutions
-My solutions for Rosalind problems in Python
+Decided to upload myy solutions for Rosalind problems in Python
