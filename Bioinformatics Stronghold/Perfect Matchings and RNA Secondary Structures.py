@@ -1,7 +1,6 @@
 from math import factorial           
-from Bio.Seq import Seq
 
-s = Seq('CUCAAGACCUGUAGUACAGAGUCUAACAACGUUAGGUGCGUUGGGACUUCCCCCAGCGACGCUGAGCUUGGC')                            
+s = 'CUCAAGACCUGUAGUACAGAGUCUAACAACGUUAGGUGCGUUGGGACUUCCCCCAGCGACGCUGAGCUUGGC'             
                         
 AU = 0                                     
 GC = 0                                     
@@ -12,4 +11,4 @@ for item in s:
         GC += 1                            
 
 m = factorial(AU) * factorial(GC)  
-print(m)   
+print(m)
